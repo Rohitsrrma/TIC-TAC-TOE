@@ -256,6 +256,7 @@ class _HomePageState extends State<HomePage> {
     setState(() {
       xScore = 0;
       oScore = 0;
+      _flashellement = null;;
       for (int i = 0; i < 9; i++) {
         displayElement[i] = '';
       }
